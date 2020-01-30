@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:cb353fd0-bf51-4557-a6c4-f373c75f182f(CISTER.sandbox)/5431507069741296096">
+    <file name="Test.cst">
+      <unit id="5431507069741296096" at="1,0,12201,0" name="CISTER.sandbox.Sandbox" />
+    </file>
+  </root>
+</debug-info>
+

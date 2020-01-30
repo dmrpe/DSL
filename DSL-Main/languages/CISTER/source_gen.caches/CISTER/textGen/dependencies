@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="CISTER.textGen.Application_TextGen" file="Application_TextGen.java">
+    <classNode dependClassName="CISTER.behavior.Application__BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Deque" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.LinkedListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.Deployment_TextGen" file="Deployment_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.Hypervisor_TextGen" file="Hypervisor_TextGen.java">
+    <classNode dependClassName="CISTER.behavior.Hypervisor__BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Deque" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.LinkedListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.IRQChipDefinition_TextGen" file="IRQChipDefinition_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.Install_TextGen" file="Install_TextGen.java">
+    <classNode dependClassName="CISTER.behavior.Install__BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Deque" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.LinkedListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.Partition_TextGen" file="Partition_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.Platform_TextGen" file="Platform_TextGen.java">
+    <classNode dependClassName="CISTER.behavior.Platform__BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Deque" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.LinkedListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.Refinement_TextGen" file="Refinement_TextGen.java">
+    <classNode dependClassName="CISTER.behavior.Refinement__BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Deque" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.LinkedListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.Sandbox_TextGen" file="Sandbox_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.traceable.behavior.UnitConcept__BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.TextGenAspectDescriptor" file="TextGenAspectDescriptor.java">
+    <classNode dependClassName="CISTER.structure.LanguageConceptSwitch" />
+    <classNode dependClassName="CISTER.textGen.Application_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Deployment_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Hypervisor_TextGen" />
+    <classNode dependClassName="CISTER.textGen.IRQChipDefinition_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Install_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Partition_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Platform_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Refinement_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Sandbox_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Topic_TextGen" />
+    <classNode dependClassName="CISTER.textGen.View_TextGen" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenDescriptor" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenModelOutline" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenAspectBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.Topic_TextGen" file="Topic_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="CISTER.textGen.View_TextGen" file="View_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:64aa5712-806c-494a-813f-9a8739ac2da3(Vortex.build)/6442722851377965491">
+    <file name="Vortex.xml">
+      <unit id="6442722851377965491" at="1,0,448,10" name="Vortex.build.Vortex" />
+    </file>
+  </root>
+  <root nodeRef="r:64aa5712-806c-494a-813f-9a8739ac2da3(Vortex.build)/6442722851377965618">
+    <file name="VortexDistribution.xml">
+      <unit id="6442722851377965618" at="1,0,85,10" name="Vortex.build.VortexDistribution" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="15,0,69,0" name="CISTER.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/141464113036441100">
+    <file name="IRQChipDefinition_TextGen.java">
+      <node id="141464113036441100" at="11,54,12,55" concept="5" />
+      <node id="141464113036441100" at="10,0,14,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="141464113036441100" at="11,54,12,55">
+        <var name="tgs" id="141464113036441100" />
+      </scope>
+      <scope id="141464113036441100" at="10,0,14,0">
+        <var name="ctx" id="141464113036441100" />
+      </scope>
+      <unit id="141464113036441100" at="9,0,15,0" name="CISTER.textGen.IRQChipDefinition_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="141464113036441100" at="31,51,32,47" concept="6" />
+      <scope id="141464113036441100" at="31,51,32,47" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/3421836072953162380">
+    <file name="Refinement_TextGen.java">
+      <node id="3421836072953162380" at="22,54,23,55" concept="5" />
+      <node id="3421836072953276742" at="24,209,25,57" concept="1" />
+      <node id="3421836072953277269" at="25,57,26,20" concept="1" />
+      <node id="3421836072959783061" at="28,41,29,172" concept="6" />
+      <node id="3421836072959790820" at="31,9,32,38" concept="5" />
+      <node id="3421836072959797418" at="33,192,34,187" concept="1" />
+      <node id="3421836072969403915" at="35,7,36,20" concept="1" />
+      <node id="3421836072969403916" at="36,20,37,93" concept="5" />
+      <node id="3421836072969403925" at="38,218,39,233" concept="1" />
+      <node id="1096803741355665364" at="40,7,41,0" concept="7" />
+      <node id="3421836072969403940" at="42,146,43,31" concept="1" />
+      <node id="3421836072969403943" at="43,31,44,22" concept="1" />
+      <node id="3421836072969403040" at="45,7,46,0" concept="7" />
+      <node id="3421836072953277462" at="46,0,47,56" concept="1" />
+      <node id="3421836072953277464" at="47,56,48,20" concept="1" />
+      <node id="3421836072953377947" at="50,210,51,51" concept="1" />
+      <node id="3421836072953377949" at="51,51,52,20" concept="1" />
+      <node id="3421836072969440374" at="54,41,55,172" concept="6" />
+      <node id="3421836072969440381" at="57,9,58,38" concept="5" />
+      <node id="3421836072969440391" at="59,192,60,187" concept="1" />
+      <node id="3421836072955252997" at="61,7,62,20" concept="1" />
+      <node id="3421836072953377951" at="62,20,63,49" concept="1" />
+      <node id="3421836072953377953" at="63,49,64,20" concept="1" />
+      <node id="3421836072953377554" at="65,5,66,0" concept="7" />
+      <node id="3421836072959782722" at="28,0,31,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3421836072959793007" at="32,38,35,7" concept="3" />
+      <node id="3421836072969403923" at="37,93,40,7" concept="2" />
+      <node id="3421836072969440372" at="54,0,57,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3421836072969440388" at="58,38,61,7" concept="3" />
+      <node id="3421836072969403937" at="41,0,45,7" concept="2" />
+      <node id="3421836072959772365" at="26,20,31,9" concept="5" />
+      <node id="3421836072969440362" at="52,20,57,9" concept="5" />
+      <node id="3421836072953377944" at="49,5,65,5" concept="3" />
+      <node id="3421836072953162401" at="23,55,49,5" concept="3" />
+      <node id="3421836072953162380" at="21,0,68,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="3421836072959782723" at="28,41,29,172" />
+      <scope id="3421836072959793009" at="33,192,34,187" />
+      <scope id="3421836072969403924" at="38,218,39,233" />
+      <scope id="3421836072969440373" at="54,41,55,172" />
+      <scope id="3421836072969440389" at="59,192,60,187" />
+      <scope id="3421836072969403938" at="42,146,44,22" />
+      <scope id="3421836072959782722" at="28,0,31,0">
+        <var name="it" id="3421836072959782722" />
+      </scope>
+      <scope id="3421836072969403923" at="37,93,40,7">
+        <var name="allowNode" id="3421836072969403932" />
+      </scope>
+      <scope id="3421836072969440372" at="54,0,57,0">
+        <var name="it" id="3421836072969440372" />
+      </scope>
+      <scope id="3421836072969403937" at="41,0,45,7">
+        <var name="configLine" id="3421836072969403944" />
+      </scope>
+      <scope id="3421836072953377945" at="50,210,64,20">
+        <var name="ex" id="3421836072969440382" />
+        <var name="extendsRef" id="3421836072969440363" />
+      </scope>
+      <scope id="3421836072953162402" at="24,209,48,20">
+        <var name="configs" id="3421836072969403917" />
+        <var name="ex" id="3421836072959790823" />
+        <var name="extendsRef" id="3421836072959772368" />
+      </scope>
+      <scope id="3421836072953162380" at="22,54,66,0">
+        <var name="tgs" id="3421836072953162380" />
+      </scope>
+      <scope id="3421836072953162380" at="21,0,68,0">
+        <var name="ctx" id="3421836072953162380" />
+      </scope>
+      <unit id="3421836072959782722" at="27,140,31,7" name="CISTER.textGen.Refinement_TextGen$1" />
+      <unit id="3421836072969440372" at="53,140,57,7" name="CISTER.textGen.Refinement_TextGen$2" />
+      <unit id="3421836072953162380" at="20,0,69,0" name="CISTER.textGen.Refinement_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="3421836072953162380" at="39,44,40,40" concept="6" />
+      <scope id="3421836072953162380" at="39,44,40,40" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/3421836072958165055">
+    <file name="Partition_TextGen.java">
+      <node id="3421836072958165055" at="11,54,12,55" concept="5" />
+      <node id="3421836072958165055" at="10,0,14,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="3421836072958165055" at="11,54,12,55">
+        <var name="tgs" id="3421836072958165055" />
+      </scope>
+      <scope id="3421836072958165055" at="10,0,14,0">
+        <var name="ctx" id="3421836072958165055" />
+      </scope>
+      <unit id="3421836072958165055" at="9,0,15,0" name="CISTER.textGen.Partition_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="3421836072958165055" at="35,43,36,39" concept="6" />
+      <scope id="3421836072958165055" at="35,43,36,39" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/3421836072958400028">
+    <file name="Hypervisor_TextGen.java">
+      <node id="3421836072958400028" at="19,54,20,55" concept="5" />
+      <node id="3421836072969742036" at="20,55,21,96" concept="5" />
+      <node id="3421836072969742057" at="21,96,22,35" concept="5" />
+      <node id="3421836072969742029" at="22,35,23,100" concept="5" />
+      <node id="3421836072970729378" at="24,199,25,85" concept="1" />
+      <node id="141464113048397642" at="26,5,27,98" concept="5" />
+      <node id="141464113048397651" at="28,195,29,81" concept="1" />
+      <node id="3421836072969742083" at="31,156,32,29" concept="1" />
+      <node id="3421836072969742086" at="32,29,33,20" concept="1" />
+      <node id="3421836072969742064" at="23,100,26,5" concept="2" />
+      <node id="141464113048397649" at="27,98,30,5" concept="2" />
+      <node id="3421836072969742080" at="30,5,34,5" concept="2" />
+      <node id="3421836072958400028" at="18,0,36,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="3421836072969742065" at="24,199,25,85" />
+      <scope id="141464113048397650" at="28,195,29,81" />
+      <scope id="3421836072969742081" at="31,156,33,20" />
+      <scope id="3421836072969742064" at="23,100,26,5">
+        <var name="partition" id="3421836072969742075" />
+      </scope>
+      <scope id="141464113048397649" at="27,98,30,5">
+        <var name="channel" id="141464113048397656" />
+      </scope>
+      <scope id="3421836072969742080" at="30,5,34,5">
+        <var name="configLine" id="3421836072969742087" />
+      </scope>
+      <scope id="3421836072958400028" at="19,54,34,5">
+        <var name="channelPropsList" id="141464113048397643" />
+        <var name="partitionPropsList" id="3421836072969742030" />
+        <var name="tgs" id="3421836072958400028" />
+        <var name="vRef" id="3421836072969742058" />
+        <var name="viewRef" id="3421836072969742037" />
+      </scope>
+      <scope id="3421836072958400028" at="18,0,36,0">
+        <var name="ctx" id="3421836072958400028" />
+      </scope>
+      <unit id="3421836072958400028" at="17,0,37,0" name="CISTER.textGen.Hypervisor_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="3421836072958400028" at="29,44,30,40" concept="6" />
+      <scope id="3421836072958400028" at="29,44,30,40" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/3421836072958567837">
+    <file name="Platform_TextGen.java">
+      <node id="3421836072958567837" at="22,54,23,55" concept="5" />
+      <node id="3421836072960617326" at="23,55,24,99" concept="5" />
+      <node id="3421836072966917605" at="26,39,27,173" concept="6" />
+      <node id="3421836072966917612" at="29,7,30,40" concept="5" />
+      <node id="3421836072960623991" at="31,195,32,247" concept="1" />
+      <node id="3421836072970971854" at="33,5,34,34" concept="5" />
+      <node id="3421836072970967138" at="35,354,36,217" concept="1" />
+      <node id="3421836072970974493" at="37,5,38,127" concept="1" />
+      <node id="141464112991906149" at="38,127,39,0" concept="7" />
+      <node id="1096803741355665455" at="40,199,41,775" concept="1" />
+      <node id="141464113043839800" at="43,194,44,28" concept="5" />
+      <node id="141464113042866543" at="45,352,46,183" concept="1" />
+      <node id="141464113043820845" at="47,7,48,0" concept="7" />
+      <node id="141464113035388507" at="48,0,49,645" concept="1" />
+      <node id="3957372363868357268" at="50,5,51,125" concept="1" />
+      <node id="3421836072960931970" at="52,133,53,29" concept="1" />
+      <node id="3421836072960932953" at="53,29,54,20" concept="1" />
+      <node id="3421836072966917603" at="26,0,29,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3421836072960602528" at="30,40,33,5" concept="2" />
+      <node id="3421836072970867684" at="34,34,37,5" concept="2" />
+      <node id="1096803741355665453" at="39,0,42,5" concept="2" />
+      <node id="141464113042864071" at="44,28,47,7" concept="2" />
+      <node id="3421836072960915796" at="51,125,55,5" concept="2" />
+      <node id="3421836072966917593" at="24,99,29,7" concept="5" />
+      <node id="141464113035388505" at="42,5,50,5" concept="2" />
+      <node id="3421836072958567837" at="21,0,57,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="3421836072966917604" at="26,39,27,173" />
+      <scope id="3421836072960602530" at="31,195,32,247" />
+      <scope id="3421836072970867695" at="35,354,36,217" />
+      <scope id="1096803741355665454" at="40,199,41,775" />
+      <scope id="141464113042864074" at="45,352,46,183" />
+      <scope id="3421836072960915798" at="52,133,54,20" />
+      <scope id="3421836072966917603" at="26,0,29,0">
+        <var name="it" id="3421836072966917603" />
+      </scope>
+      <scope id="3421836072960602528" at="30,40,33,5">
+        <var name="allows" id="3421836072960602531" />
+      </scope>
+      <scope id="3421836072970867684" at="34,34,37,5">
+        <var name="coresSingle" id="3421836072970867696" />
+      </scope>
+      <scope id="1096803741355665453" at="39,0,42,5">
+        <var name="regionNode" id="1096803741355665462" />
+      </scope>
+      <scope id="141464113042864071" at="44,28,47,7">
+        <var name="s" id="141464113042864072" />
+      </scope>
+      <scope id="3421836072960915796" at="51,125,55,5">
+        <var name="configLine" id="3421836072960915799" />
+      </scope>
+      <scope id="141464113035388506" at="43,194,49,645">
+        <var name="pinbitmap" id="141464113043839803" />
+      </scope>
+      <scope id="141464113035388505" at="42,5,50,5">
+        <var name="irqNode" id="141464113035388534" />
+      </scope>
+      <scope id="3421836072958567837" at="22,54,55,5">
+        <var name="allowStringList" id="3421836072960617329" />
+        <var name="coresString" id="3421836072970971857" />
+        <var name="ref" id="3421836072966917613" />
+        <var name="refinementRef" id="3421836072966917594" />
+        <var name="tgs" id="3421836072958567837" />
+      </scope>
+      <scope id="3421836072958567837" at="21,0,57,0">
+        <var name="ctx" id="3421836072958567837" />
+      </scope>
+      <unit id="3421836072966917603" at="25,168,29,5" name="CISTER.textGen.Platform_TextGen$1" />
+      <unit id="3421836072958567837" at="20,0,58,0" name="CISTER.textGen.Platform_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="3421836072958567837" at="37,42,38,38" concept="6" />
+      <scope id="3421836072958567837" at="37,42,38,38" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/3957372363889910019">
+    <file name="Install_TextGen.java">
+      <node id="3957372363889910019" at="19,54,20,55" concept="5" />
+      <node id="3957372363890362803" at="20,55,21,54" concept="1" />
+      <node id="3957372363891341958" at="21,54,22,18" concept="1" />
+      <node id="3957372363890041062" at="22,18,23,91" concept="5" />
+      <node id="3957372363890042377" at="23,91,24,245" concept="1" />
+      <node id="3957372363890063857" at="24,245,25,260" concept="1" />
+      <node id="3785815128201110491" at="25,260,26,452" concept="1" />
+      <node id="3957372363890096488" at="27,210,28,411" concept="1" />
+      <node id="3957372363890303812" at="30,129,31,29" concept="1" />
+      <node id="3957372363890339603" at="31,29,32,20" concept="1" />
+      <node id="3957372363890434352" at="33,5,34,52" concept="1" />
+      <node id="3957372363891867275" at="34,52,35,18" concept="1" />
+      <node id="3957372363890434284" at="35,18,36,0" concept="7" />
+      <node id="3957372363890085562" at="26,452,29,5" concept="2" />
+      <node id="3957372363890275033" at="29,5,33,5" concept="2" />
+      <node id="3957372363889910019" at="18,0,38,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="3957372363890085564" at="27,210,28,411" />
+      <scope id="3957372363890275035" at="30,129,32,20" />
+      <scope id="3957372363890085562" at="26,452,29,5">
+        <var name="lines" id="3957372363890085565" />
+      </scope>
+      <scope id="3957372363890275033" at="29,5,33,5">
+        <var name="scriptLine" id="3957372363890275036" />
+      </scope>
+      <scope id="3957372363889910019" at="19,54,36,0">
+        <var name="configs" id="3957372363890041065" />
+        <var name="tgs" id="3957372363889910019" />
+      </scope>
+      <scope id="3957372363889910019" at="18,0,38,0">
+        <var name="ctx" id="3957372363889910019" />
+      </scope>
+      <unit id="3957372363889910019" at="17,0,39,0" name="CISTER.textGen.Install_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="3957372363889910019" at="33,41,34,37" concept="6" />
+      <scope id="3957372363889910019" at="33,41,34,37" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/4046432361947903954">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4046432361947903954" at="43,39,44,35" concept="6" />
+      <scope id="4046432361947903954" at="43,39,44,35" />
+    </file>
+    <file name="Topic_TextGen.java">
+      <node id="4046432361947903954" at="11,54,12,55" concept="5" />
+      <node id="4046432361947903954" at="10,0,14,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4046432361947903954" at="11,54,12,55">
+        <var name="tgs" id="4046432361947903954" />
+      </scope>
+      <scope id="4046432361947903954" at="10,0,14,0">
+        <var name="ctx" id="4046432361947903954" />
+      </scope>
+      <unit id="4046432361947903954" at="9,0,15,0" name="CISTER.textGen.Topic_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/4046432361948255367">
+    <file name="Application_TextGen.java">
+      <node id="4046432361948255367" at="22,54,23,55" concept="5" />
+      <node id="4046432361948255388" at="23,55,24,97" concept="5" />
+      <node id="4046432361948256610" at="26,39,27,173" concept="6" />
+      <node id="4046432361948256617" at="29,7,30,40" concept="5" />
+      <node id="4046432361948258278" at="31,192,32,402" concept="1" />
+      <node id="4046432361948317489" at="34,138,35,29" concept="1" />
+      <node id="4046432361948317492" at="35,29,36,20" concept="1" />
+      <node id="4046432361948256608" at="26,0,29,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="4046432361948258276" at="30,40,33,5" concept="2" />
+      <node id="4046432361948317486" at="33,5,37,5" concept="2" />
+      <node id="4046432361948256596" at="24,97,29,7" concept="5" />
+      <node id="4046432361948255367" at="21,0,39,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4046432361948256609" at="26,39,27,173" />
+      <scope id="4046432361948258277" at="31,192,32,402" />
+      <scope id="4046432361948317487" at="34,138,36,20" />
+      <scope id="4046432361948256608" at="26,0,29,0">
+        <var name="it" id="4046432361948256608" />
+      </scope>
+      <scope id="4046432361948258276" at="30,40,33,5">
+        <var name="topics" id="4046432361948258287" />
+      </scope>
+      <scope id="4046432361948317486" at="33,5,37,5">
+        <var name="configLine" id="4046432361948317493" />
+      </scope>
+      <scope id="4046432361948255367" at="22,54,37,5">
+        <var name="cfgStringList" id="4046432361948255389" />
+        <var name="ref" id="4046432361948256618" />
+        <var name="refinementRef" id="4046432361948256597" />
+        <var name="tgs" id="4046432361948255367" />
+      </scope>
+      <scope id="4046432361948255367" at="21,0,39,0">
+        <var name="ctx" id="4046432361948255367" />
+      </scope>
+      <unit id="4046432361948256608" at="25,168,29,5" name="CISTER.textGen.Application_TextGen$1" />
+      <unit id="4046432361948255367" at="20,0,40,0" name="CISTER.textGen.Application_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4046432361948255367" at="25,45,26,41" concept="6" />
+      <scope id="4046432361948255367" at="25,45,26,41" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/5431507069741308494">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5431507069741308494" at="45,38,46,34" concept="6" />
+      <scope id="5431507069741308494" at="45,38,46,34" />
+    </file>
+    <file name="View_TextGen.java">
+      <node id="5431507069741308494" at="15,54,16,55" concept="5" />
+      <node id="3421836072953252021" at="17,361,18,208" concept="1" />
+      <node id="3421836072953876966" at="20,361,21,208" concept="1" />
+      <node id="3421836072958166809" at="23,211,24,27" concept="1" />
+      <node id="3957372363890836789" at="26,201,27,205" concept="1" />
+      <node id="3421836072953869230" at="16,55,19,5" concept="3" />
+      <node id="3421836072953876963" at="19,5,22,5" concept="3" />
+      <node id="3421836072958194316" at="22,5,25,5" concept="2" />
+      <node id="3957372363890828119" at="25,5,28,5" concept="3" />
+      <node id="5431507069741308494" at="14,0,30,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="3421836072953869232" at="17,361,18,208" />
+      <scope id="3421836072953876964" at="20,361,21,208" />
+      <scope id="3421836072958194318" at="23,211,24,27" />
+      <scope id="3957372363890828121" at="26,201,27,205" />
+      <scope id="3421836072958194316" at="22,5,25,5">
+        <var name="part" id="3421836072958194319" />
+      </scope>
+      <scope id="5431507069741308494" at="15,54,28,5">
+        <var name="tgs" id="5431507069741308494" />
+      </scope>
+      <scope id="5431507069741308494" at="14,0,30,0">
+        <var name="ctx" id="5431507069741308494" />
+      </scope>
+      <unit id="5431507069741308494" at="13,0,31,0" name="CISTER.textGen.View_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/5431507069741322601">
+    <file name="Sandbox_TextGen.java">
+      <node id="5431507069741322601" at="16,54,17,55" concept="5" />
+      <node id="5431507069741322601" at="17,55,18,25" concept="1" />
+      <node id="6131976754162071169" at="19,203,20,24" concept="1" />
+      <node id="6131976754162071172" at="20,24,21,20" concept="1" />
+      <node id="5431507069741322601" at="23,30,24,291" concept="1" />
+      <node id="5431507069741322601" at="22,5,25,5" concept="3" />
+      <node id="6131976754162071166" at="18,25,22,5" concept="2" />
+      <node id="5431507069741322601" at="15,0,27,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5431507069741322601" at="23,30,24,291" />
+      <scope id="6131976754162071167" at="19,203,21,20" />
+      <scope id="6131976754162071166" at="18,25,22,5">
+        <var name="v" id="6131976754162071174" />
+      </scope>
+      <scope id="5431507069741322601" at="16,54,25,5">
+        <var name="tgs" id="5431507069741322601" />
+      </scope>
+      <scope id="5431507069741322601" at="15,0,27,0">
+        <var name="ctx" id="5431507069741322601" />
+      </scope>
+      <unit id="5431507069741322601" at="14,0,28,0" name="CISTER.textGen.Sandbox_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5431507069741322601" at="41,41,42,37" concept="6" />
+      <node id="5431507069741322601" at="54,159,55,49" concept="5" />
+      <node id="5431507069741322601" at="55,49,56,52" concept="5" />
+      <node id="5431507069741322601" at="56,52,57,84" concept="1" />
+      <node id="5431507069741322601" at="57,84,58,17" concept="0" />
+      <node id="5431507069741344437" at="62,57,63,18" concept="6" />
+      <node id="5431507069741343867" at="65,62,66,17" concept="6" />
+      <node id="5431507069741322601" at="62,0,65,0" concept="8" trace="getFileName_Sandbox#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5431507069741322601" at="65,0,68,0" concept="8" trace="getFileExtension_Sandbox#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5431507069741322601" at="53,58,59,7" concept="3" />
+      <scope id="5431507069741322601" at="41,41,42,37" />
+      <scope id="5431507069741322601" at="62,57,63,18" />
+      <scope id="5431507069741322601" at="65,62,66,17" />
+      <scope id="5431507069741322601" at="62,0,65,0">
+        <var name="node" id="5431507069741322601" />
+      </scope>
+      <scope id="5431507069741322601" at="65,0,68,0">
+        <var name="node" id="5431507069741322601" />
+      </scope>
+      <scope id="5431507069741322601" at="54,159,58,17">
+        <var name="ext" id="5431507069741322601" />
+        <var name="fname" id="5431507069741322601" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:49535e1e-e9e7-4235-ae8d-5df0154e7163(CISTER.textGen)/5431507069741407075">
+    <file name="Deployment_TextGen.java">
+      <node id="5431507069741407075" at="13,54,14,55" concept="5" />
+      <node id="3421836072953350799" at="15,208,16,57" concept="1" />
+      <node id="3421836072953350801" at="16,57,17,20" concept="1" />
+      <node id="3421836072953379601" at="17,20,18,0" concept="7" />
+      <node id="3421836072953350874" at="18,0,19,55" concept="1" />
+      <node id="3421836072953350876" at="19,55,20,20" concept="1" />
+      <node id="3421836072953376030" at="21,5,22,0" concept="7" />
+      <node id="5431507069741520184" at="14,55,21,5" concept="3" />
+      <node id="5431507069741407075" at="12,0,24,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5431507069741520186" at="15,208,20,20" />
+      <scope id="5431507069741407075" at="13,54,22,0">
+        <var name="tgs" id="5431507069741407075" />
+      </scope>
+      <scope id="5431507069741407075" at="12,0,24,0">
+        <var name="ctx" id="5431507069741407075" />
+      </scope>
+      <unit id="5431507069741407075" at="11,0,25,0" name="CISTER.textGen.Deployment_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5431507069741407075" at="27,44,28,40" concept="6" />
+      <scope id="5431507069741407075" at="27,44,28,40" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:76675674-0b3a-4fa9-89f0-696b39a22ee5(DSL-Main.build)/1096803741359766924">
+    <file name="DSL-Main.xml">
+      <unit id="1096803741359766924" at="1,0,471,10" name="DSL-Main.build.DSL-Main" />
+    </file>
+  </root>
+  <root nodeRef="r:76675674-0b3a-4fa9-89f0-696b39a22ee5(DSL-Main.build)/1096803741359767065">
+    <file name="DSL-MainDistribution.xml">
+      <unit id="1096803741359767065" at="1,0,145,10" name="DSL-Main.build.DSL-MainDistribution" />
+    </file>
+  </root>
+</debug-info>
+

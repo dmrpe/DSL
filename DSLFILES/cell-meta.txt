@@ -1,0 +1,13 @@
+cores[0,1]
+name:LinuxROS
+memreg:UART:0x100000000:0x100000000:0x2000
+memreg:RAM:0x5000000000:0x50000000:0x1000
+addr:GIC:0x30000000:288:0 << (332 - 320)
+device:IVSHMEM:3
+channel:LinuxROS:LinuxROS2:10MB:LinuxROS:read,write:LinuxROS2:read:/* IVSHMEM  1*/
+channel:LinuxROS:LinuxROS2:10KB:LinuxROS:read:LinuxROS2:read,write:/* IVSHMEM  2*/
+cores[2,3]
+name:LinuxROS2
+memreg:RAM:0x5000000000:0x50000000:0x3000
+channel:LinuxROS:LinuxROS2:10MB:LinuxROS:read,write:LinuxROS2:read:/* IVSHMEM  1*/
+channel:LinuxROS:LinuxROS2:10KB:LinuxROS:read:LinuxROS2:read,write:/* IVSHMEM  2*/

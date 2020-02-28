@@ -3,13 +3,11 @@
   <dependency className="CISTER.Language" file="Language.java">
     <classNode dependClassName="CISTER.behavior.BehaviorAspectDescriptor" />
     <classNode dependClassName="CISTER.constraints.ConstraintsAspectDescriptor" />
-    <classNode dependClassName="CISTER.documentation.DocumentationDescriptor" />
     <classNode dependClassName="CISTER.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="CISTER.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="CISTER.structure.StructureAspectDescriptor" />
     <classNode dependClassName="CISTER.textGen.TextGenAspectDescriptor" />
     <classNode dependClassName="CISTER.typesystem.TypesystemDescriptor" />
-    <classNode dependClassName="com.mbeddr.doc.aspect.runtime.IDocumentationAspectDescriptor" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />

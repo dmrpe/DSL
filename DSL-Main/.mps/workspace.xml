@@ -6,7 +6,31 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfce5b16-36a4-4485-9cb8-e549e07eacef" name="Default Changelist" comment="" />
+    <list default="true" id="dfce5b16-36a4-4485-9cb8-e549e07eacef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/Constants_Constraints$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/classes_gen/CISTER/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/models/constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/models/constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/source_gen.caches/CISTER/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/source_gen.caches/CISTER/constraints/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/source_gen.caches/CISTER/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/source_gen.caches/CISTER/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/source_gen.caches/CISTER/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/source_gen.caches/CISTER/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/constraints/Constants_Constraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/constraints/Constants_Constraints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CISTER/source_gen/CISTER/trace.info" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +51,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="038d8cf9-4733-4c28-8c8e-38caac8f2425/r:b16b09f3-843e-4ff3-8cd9-a273f523baa0(TempModule038d8cf9-4733-4c28-8c8e-38caac8f2425/TempModel_404065140300)">
+            <model ref="4f40887e-dc0f-43a8-9d86-5f79f12eb446/r:15c1c24a-3a99-4238-9760-484bac3e8dac(TempModule4f40887e-dc0f-43a8-9d86-5f79f12eb446/TempModel_1252539924742)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -47,11 +71,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4312YsHFtc8">
-                <node concept="3balQm" id="4312YsHFtc9" role="aymYE" />
-                <node concept="2Clz$F" id="4312YsHFtca" role="aymYO" />
-                <node concept="2_V_lH" id="4312YsHFtcb" role="1PhJh3">
-                  <ref role="2_V_lI" node="4312YsHFtca" resolve="CommandHolder" />
+              <node concept="aymSD" id="58uRC8mBTye">
+                <node concept="3balQm" id="58uRC8mBTyf" role="aymYE" />
+                <node concept="2Clz$F" id="58uRC8mBTyg" role="aymYO" />
+                <node concept="2_V_lH" id="58uRC8mBTyh" role="1PhJh3">
+                  <ref role="2_V_lI" node="58uRC8mBTyg" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -177,6 +201,24 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1303889396">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cst" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -188,11 +230,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="47" />
+                    <property name="caretX" value="15" />
                     <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_allowList">
-                      <node node_reference="r:cb353fd0-bf51-4557-a6c4-f373c75f182f(CISTER.sandbox)/5731665899630986799" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:cb353fd0-bf51-4557-a6c4-f373c75f182f(CISTER.sandbox)/5431507069741296096" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -201,7 +243,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -214,6 +256,11 @@
               </inspectorMemento>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="previewCISTER.sandbox@0/Test.cst">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -259,7 +306,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -302,7 +349,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -356,7 +403,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -372,11 +419,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="mps://node://CISTER/CISTER.structure/Platform">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="1372">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="1072">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
@@ -435,7 +482,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -489,7 +536,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -505,19 +552,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="mps://node://CISTER/CISTER.structure/Constants">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="660">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="1864">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="207" />
-                    <property name="caretXRelative" value="80" />
+                    <property name="selectionStart" value="0" />
+                    <property name="hasNonTrivialSelection" value="true" />
+                    <property name="caretX" value="367" />
+                    <property name="selectionEnd" value="30" />
+                    <property name="caretXRelative" value="240" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_value">
-                      <node node_reference="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/4666023776465104052" />
+                      <node node_reference="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -878,12 +927,12 @@
                 <restoreAlways>
                   <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_trik0f_b0">
-                      <node node_reference="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/4666023776465102945" />
+                      <node node_reference="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872395753" />
                     </cellIdElement>
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -938,6 +987,7 @@
   <component name="NodeEditorSearchHistory">
     <option name="searches">
       <list>
+        <option value="C:\\Users\\IL0086D\\Desktop\\DSLFILES" />
         <option value="separator" />
         <option value="region" />
         <option value="IVHSMEM" />
@@ -951,11 +1001,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1669" />
-    <option name="y" value="393" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="950" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
       <option name="com.mbddr.core.buildconfig.pluginSolution.plugin.PluginSolution_ProjectPlugin">
@@ -1244,6 +1295,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
@@ -1253,52 +1305,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="7f38d807-38ca-44f1-941e-7c2f776e2e59(CISTER)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CISTER#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:859c2cea-2337-4fac-a664-3f97b8039908(main@generator) in IdeaFile[file://C:/Users/IL0086D/MPSProjects/DSL-Main/languages/CISTER/generator/template/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7f38d807-38ca-44f1-941e-7c2f776e2e59(CISTER)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:91922811-1524-43e4-96d0-cba85433d637(CISTER.structure) in IdeaFile[file://C:/Users/IL0086D/MPSProjects/DSL-Main/languages/CISTER/models/structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7f38d807-38ca-44f1-941e-7c2f776e2e59(CISTER)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior) in IdeaFile[file://C:/Users/IL0086D/MPSProjects/DSL-Main/languages/CISTER/models/behavior.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="814c1416-361a-4ef0-b826-81fe488ad656" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -1307,61 +1313,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:cb353fd0-bf51-4557-a6c4-f373c75f182f(CISTER.sandbox) in IdeaFile[file://C:/Users/IL0086D/MPSProjects/DSL-Main/languages/CISTER/sandbox/models/CISTER.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="814c1416-361a-4ef0-b826-81fe488ad656" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7f38d807-38ca-44f1-941e-7c2f776e2e59(CISTER)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints) in IdeaFile[file://C:/Users/IL0086D/MPSProjects/DSL-Main/languages/CISTER/models/constraints.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7f38d807-38ca-44f1-941e-7c2f776e2e59(CISTER)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="814c1416-361a-4ef0-b826-81fe488ad656" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CISTER" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="r:cb353fd0-bf51-4557-a6c4-f373c75f182f(CISTER.sandbox) in IdeaFile[file:///home/spinz/Documents/DSL/DSL-Main/languages/CISTER/sandbox/models/CISTER.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -1389,7 +1341,65 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:fcfaf39f-757c-4aab-9725-864116b7694c(CISTER.typesystem) in IdeaFile[file://C:/Users/IL0086D/MPSProjects/DSL-Main/languages/CISTER/models/typesystem.mps]" />
+              <option name="myItemId" value="r:91922811-1524-43e4-96d0-cba85433d637(CISTER.structure) in IdeaFile[file:///home/spinz/Documents/DSL/DSL-Main/languages/CISTER/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7f38d807-38ca-44f1-941e-7c2f776e2e59(CISTER)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7f38d807-38ca-44f1-941e-7c2f776e2e59(CISTER)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CISTER#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:859c2cea-2337-4fac-a664-3f97b8039908(main@generator) in IdeaFile[file:///home/spinz/Documents/DSL/DSL-Main/languages/CISTER/generator/template/main@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="814c1416-361a-4ef0-b826-81fe488ad656" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CISTER" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="814c1416-361a-4ef0-b826-81fe488ad656" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -1402,18 +1412,9 @@
               <option name="myItemId" value="7f38d807-38ca-44f1-941e-7c2f776e2e59(CISTER)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior) in IdeaFile[file://C:/Users/IL0086D/MPSProjects/DSL-Main/languages/CISTER/models/behavior.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3421836072958565701" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="Favorites" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -1532,10 +1533,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="950" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.2470948" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.25013834" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.21100917" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1553,14 +1554,14 @@
       <window_info anchor="bottom" id="Chart" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5088685" side_tool="true" weight="0.3461105" />
       <window_info anchor="bottom" id="Classpath Explorer" order="15" />
-      <window_info anchor="bottom" id="Documentation" order="16" sideWeight="0.4941896" weight="0.04171364" />
+      <window_info anchor="bottom" id="Documentation" order="16" sideWeight="0.4941896" weight="0.041469194" />
       <window_info anchor="bottom" id="Usages" order="17" />
       <window_info anchor="bottom" id="Node Explorer" order="18" weight="0.32919955" />
       <window_info anchor="bottom" id="Module Dependencies" order="19" />
       <window_info anchor="bottom" id="Version Control" order="20" show_stripe_button="false" />
       <window_info anchor="bottom" id="Generation Tracer" order="21" />
       <window_info anchor="bottom" id="Cell Explorer" order="22" />
-      <window_info anchor="bottom" id="Messages" order="23" sideWeight="0.48750946" weight="0.23111612" />
+      <window_info anchor="bottom" id="Messages" order="23" sideWeight="0.48750946" visible="true" weight="0.23104265" />
       <window_info anchor="bottom" id="Typechecker State" order="24" />
       <window_info anchor="bottom" id="Console" order="25" weight="0.32919955" />
       <window_info anchor="bottom" id="RefactoringView" order="26" weight="0.029752066" />
@@ -2835,7 +2836,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2876,7 +2877,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2888,6 +2889,58 @@
             </enabledHints>
           </inspectorMemento>
           <node node_ref="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361947903976" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://CISTER/CISTER.structure/Application">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="412">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="207" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name1">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4666023776468590470" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361947903987" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_6lfqqa_b0">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361948331316" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361947903987" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+          <node node_ref="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361948331315" />
         </state>
       </provider>
     </entry>
@@ -2928,7 +2981,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2943,18 +2996,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://CISTER/CISTER.structure/Constants">
+    <entry file="mps://node://CISTER/CISTER.structure/Platform">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="660">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="1072">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="207" />
-                <property name="caretXRelative" value="80" />
+                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_zedcwq_b0">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3957372363868317344" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113021028068" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3421836072958565712" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="commentCollection">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3957372363875420676" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="commentCollection">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3957372363875414557" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="commentCollection">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3957372363875327716" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_6lfqqa_b0">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3421836072958565702" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113021028068" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+          <node node_ref="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3421836072958565701" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://CISTER.sandbox/CISTER.sandbox/Sandbox">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:cb353fd0-bf51-4557-a6c4-f373c75f182f(CISTER.sandbox)/5431507069741296096" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://CISTER/CISTER.structure/Constants">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="1864">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="selectionStart" value="0" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretX" value="367" />
+                <property name="selectionEnd" value="30" />
+                <property name="caretXRelative" value="240" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_value">
-                  <node node_reference="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/4666023776465104052" />
+                  <node node_reference="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -3315,12 +3481,12 @@
             <restoreAlways>
               <collapsedElement isCollapsed="false">
                 <cellIdElement cellId="Collection_trik0f_b0">
-                  <node node_reference="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/4666023776465102945" />
+                  <node node_reference="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872395753" />
                 </cellIdElement>
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/3957372363872397402" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -3332,169 +3498,6 @@
             </enabledHints>
           </inspectorMemento>
           <node node_ref="r:24ee9c4c-5d51-47f4-8ba8-fe70735fe26d(CISTER.constraints)/1980959579560848783" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://CISTER.sandbox/CISTER.sandbox/Sandbox">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="47" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_allowList">
-                  <node node_reference="r:cb353fd0-bf51-4557-a6c4-f373c75f182f(CISTER.sandbox)/5731665899630986799" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://CISTER/CISTER.structure/Application">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="412">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="207" />
-                <property name="caretXRelative" value="40" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name1">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4666023776468590470" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361947903987" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_6lfqqa_b0">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361948331316" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361947903987" />
-                </cellIdElement>
-              </collapsedElement>
-            </restoreAlways>
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-          <node node_ref="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/4046432361948331315" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://CISTER/CISTER.structure/Platform">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="1372">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="247" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_zedcwq_b0">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3957372363868317344" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113021028068" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3421836072958565712" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="commentCollection">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3957372363875420676" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="commentCollection">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3957372363875414557" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="commentCollection">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3957372363875327716" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_6lfqqa_b0">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3421836072958565702" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a">
-                  <node node_reference="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113021028068" />
-                </cellIdElement>
-              </collapsedElement>
-            </restoreAlways>
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/141464113028117457" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-          <node node_ref="r:c17338ba-1fa7-40b5-9cb0-3a4b73976db8(CISTER.behavior)/3421836072958565701" />
         </state>
       </provider>
     </entry>

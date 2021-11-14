@@ -1,0 +1,6 @@
+OS:Ubuntu Server
+kernel:4.4
+target:BananaPi M1:false
+line:ros-kinetic:Y
+line:jailhouse:Y
+line:docker:Y

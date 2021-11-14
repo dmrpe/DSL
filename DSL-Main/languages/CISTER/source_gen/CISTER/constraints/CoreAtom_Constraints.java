@@ -14,6 +14,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class CoreAtom_Constraints extends BaseConstraintsDescriptor {
   public CoreAtom_Constraints() {
@@ -42,6 +43,11 @@ public class CoreAtom_Constraints extends BaseConstraintsDescriptor {
                 }
               }
             }
+            SNode refinementRef = SLinkOperations.getTarget(vRef, MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22545L, "Refinement"));
+            if (ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(refinementRef, MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209bL, 0x1f694dc7b55500aL, "Cores")), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x2f7ccdc758475d41L, 0x2f7ccdc758475d9aL, "cores"))).contains(node)) {
+              return false;
+            }
+
           }
           return true;
         }

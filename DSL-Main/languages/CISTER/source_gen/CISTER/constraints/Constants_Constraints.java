@@ -21,6 +21,17 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
   @Override
   protected Map<SProperty, PropertyConstraintsDescriptor> getSpecifiedProperties() {
     Map<SProperty, PropertyConstraintsDescriptor> properties = new HashMap<SProperty, PropertyConstraintsDescriptor>();
+    properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L), this) {
+      @Override
+      public boolean hasOwnGetter() {
+        return true;
+      }
+      @Override
+      public Object getValue(SNode node) {
+        String propertyName = "MAIN_PATH";
+        return "E:\\techworks\\DSL\\DSLFILES";
+      }
+    });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x1b7dc83df60bee93L, "CONST_PCI_DEVICE_IDENTIFIER_IVHSMEM"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x1b7dc83df60bee93L), this) {
       @Override
       public boolean hasOwnGetter() {
@@ -40,7 +51,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "CELL_CONFIG_FILE_PATH";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x40c10be72dba2e1cL, "DOCKERFILE_OUT"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x40c10be72dba2e1cL), this) {
@@ -51,7 +62,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "DOCKERFILE_OUT";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x40c10be72dba6414L, "DOCKERFILE_NAME"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x40c10be72dba6414L), this) {
@@ -65,6 +76,17 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
         return "Dockerfile";
       }
     });
+    properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd127764cL, "INSTALL_CONFIG_META_FILE_NAME"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd127764cL), this) {
+      @Override
+      public boolean hasOwnGetter() {
+        return true;
+      }
+      @Override
+      public Object getValue(SNode node) {
+        String propertyName = "INSTALL_CONFIG_META_FILE_NAME";
+        return "install-meta.txt";
+      }
+    });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x3827d0cb5594d4afL, "ROS_TOPIC_OUTPUT_FILE_PATH"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x3827d0cb5594d4afL), this) {
       @Override
       public boolean hasOwnGetter() {
@@ -73,7 +95,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "ROS_TOPIC_OUTPUT_FILE_PATH";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x40c10be72ded87b5L, "ROS_TOPIC_SUB_OUTPUT_FILE_NAME"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x40c10be72ded87b5L), this) {
@@ -95,7 +117,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "ROS_TOPIC_SUB_OUTPUT_FILE_PATH";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x3827d0cb55950945L, "ROS_TOPIC_OUTPUT_FILE_NAME"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x3827d0cb55950945L), this) {
@@ -139,7 +161,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "HYPERVISOR_CONFIG_FILE_PATH";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a9a508ddL, "INSTALL_CONFIG_FILE_NAME"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a9a508ddL), this) {
@@ -161,7 +183,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "INSTALL_CONFIG_FILE_PATH";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a8ce80fdL, "KERNEL_CONFIG_OUTPUT_FILE_PATH"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a8ce80fdL), this) {
@@ -172,7 +194,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "KERNEL_CONFIG_OUTPUT_FILE_PATH";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a8ce809cL, "KERNEL_CONFIG_FILE_PATH"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a8ce809cL), this) {
@@ -183,7 +205,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "KERNEL_CONFIG_FILE_PATH";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a8ce80ccL, "KERNEL_CONFIG_FILE_NAME"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a8ce80ccL), this) {
@@ -227,7 +249,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "HYPERVISOR_CONFIG_OUTPUT_FILE_PATH";
-        return "/home/spinz/Documents/DSLFILES";
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd1400290L, "MAIN_PATH"));
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a88fed5dL, "HYPERVISOR_CONFIG_OUTPUT_FILE_NAME"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a88fed5dL), this) {
@@ -404,7 +426,7 @@ public class Constants_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "MEMORY_REG_SEARCH_TERM";
-        return "memReg";
+        return "memreg";
       }
     });
     properties.put(MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a86e044dL, "ADDR_SEARCH_TERM"), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a86e044dL), this) {

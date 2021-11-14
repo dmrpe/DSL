@@ -38,13 +38,15 @@ public final class Install__BehaviorDescriptor extends BaseBHDescriptor {
   private static final BehaviorRegistry REGISTRY = ConceptRegistry.getInstance().getBehaviorRegistry();
 
   public static final SMethod<LinkedList<String>> configureInstall_id3rFqjaDB8aR = new SMethodBuilder<LinkedList<String>>(new SJavaCompoundTypeImpl(LinkedList.class)).name("configureInstall").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3rFqjaDB8aR").registry(REGISTRY).build(SMethodBuilder.createJavaParameter((Class<Deque<String>>) ((Class) Object.class), ""));
+  /*package*/ static final SMethod<Void> saveIntermediaryLanguageToFile_id5XiMEZh9aJ5 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("saveIntermediaryLanguageToFile").modifiers(SModifiersImpl.create(0, AccessPrivileges.PRIVATE)).concept(CONCEPT).id("5XiMEZh9aJ5").registry(REGISTRY).build(SMethodBuilder.createJavaParameter((Class<Deque<String>>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(configureInstall_id3rFqjaDB8aR);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(configureInstall_id3rFqjaDB8aR, saveIntermediaryLanguageToFile_id5XiMEZh9aJ5);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
   /*package*/ static LinkedList<String> configureInstall_id3rFqjaDB8aR(@NotNull SNode __thisNode__, Deque<String> configsList) {
+    Install__BehaviorDescriptor.saveIntermediaryLanguageToFile_id5XiMEZh9aJ5.invoke(__thisNode__, configsList);
     LinkedList<String> ret = new LinkedList();
     LinkedList<String> retScripts = new LinkedList();
     Path out = FileSystems.getDefault().getPath(SPropertyOperations.getString(__thisNode__, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a9a50913L, "INSTALL_CONFIG_FILE_PATH")), SPropertyOperations.getString(__thisNode__, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a9a508ddL, "INSTALL_CONFIG_FILE_NAME")));
@@ -194,6 +196,13 @@ public final class Install__BehaviorDescriptor extends BaseBHDescriptor {
     return ret;
 
   }
+  /*package*/ static void saveIntermediaryLanguageToFile_id5XiMEZh9aJ5(@NotNull SNode __thisNode__, Deque<String> entries) {
+    Path p = FileSystems.getDefault().getPath(SPropertyOperations.getString(__thisNode__, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x36eb6932a9a50913L, "INSTALL_CONFIG_FILE_PATH")), SPropertyOperations.getString(__thisNode__, MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x1b7dc83df60b6d81L, 0x5f52caafd127764cL, "INSTALL_CONFIG_META_FILE_NAME")));
+    try {
+      Files.write(p, entries);
+    } catch (Exception ex) {
+    }
+  }
 
   /*package*/ Install__BehaviorDescriptor() {
     super(REGISTRY);
@@ -213,6 +222,9 @@ public final class Install__BehaviorDescriptor extends BaseBHDescriptor {
     switch (methodIndex) {
       case 0:
         return (T) ((LinkedList<String>) configureInstall_id3rFqjaDB8aR(node, (Deque<String>) parameters[0]));
+      case 1:
+        saveIntermediaryLanguageToFile_id5XiMEZh9aJ5(node, (Deque<String>) parameters[0]);
+        return null;
       default:
         throw new BHMethodNotFoundException(this, method);
     }

@@ -5,26 +5,19 @@ package CISTER.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.model.SNode;
 
 public class View_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    if (SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22545L, "Refinement")), MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209bL, 0x2f7ccdc757fdad33L, "target")) != null) {
-      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22545L, "Refinement")));
-    }
-    if (SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22547L, "Deployment")), MetaAdapterFactory.getProperty(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209cL, 0x4b6096e70ef75405L, "target")) != null) {
-      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22547L, "Deployment")));
-    }
-    for (SNode part : SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22554L, "Partition"))) {
-      tgs.appendNode(part);
-    }
+    tgs.appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22576L, "Extends")), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef22575L, 0x2f7ccdc75800fc99L, "Target")));
     if (SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef2254eL, "Install")) != null) {
       tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef2254eL, "Install")));
+    }
+    if (SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22545L, "Refinement")) != null) {
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x7f38d80738ca44f1L, 0x941e7c2f776e2e59L, 0x4b6096e70ef2209aL, 0x4b6096e70ef22545L, "Refinement")));
     }
   }
 }

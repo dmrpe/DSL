@@ -21,3 +21,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker pull ros
 sudo docker network create rosnet
 /bin/bash -c 'docker run -it --net rosnet --name master ros roscore'
+#Prepare ROS environment
+sudo cp publisher-new.cpp tmpfs/partition2/scripts/rosapp/src/app 
+sudo cp subscriber-new.cpp tmpfs/partition2/scripts/rosapp/src/app 

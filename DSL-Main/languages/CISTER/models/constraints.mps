@@ -165,6 +165,12 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
+    </language>
   </registry>
   <node concept="1M2fIO" id="P_llgYqLQH">
     <ref role="1M2myG" to="jmga:4Hw_IseWy2q" resolve="View" />
@@ -1762,6 +1768,50 @@
                   </node>
                 </node>
               </node>
+              <node concept="3cpWs8" id="5XiMEZgXp5E" role="3cqZAp">
+                <node concept="3cpWsn" id="5XiMEZgXp5F" role="3cpWs9">
+                  <property role="TrG5h" value="refinementRef" />
+                  <node concept="3Tqbb2" id="5XiMEZgXp5G" role="1tU5fm">
+                    <ref role="ehGHo" to="jmga:4Hw_IseWy2r" resolve="Refinement" />
+                  </node>
+                  <node concept="2OqwBi" id="5XiMEZgXp5H" role="33vP2m">
+                    <node concept="37vLTw" id="5XiMEZgXp5I" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7Q_dLVoIaD" resolve="vRef" />
+                    </node>
+                    <node concept="3TrEf2" id="5XiMEZgXp5J" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jmga:4Hw_IseWyl5" resolve="Refinement" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="5XiMEZh68Z6" role="3cqZAp">
+                <node concept="3clFbS" id="5XiMEZh68Z8" role="3clFbx">
+                  <node concept="3cpWs6" id="5XiMEZh6wwC" role="3cqZAp">
+                    <node concept="3clFbT" id="5XiMEZh6wwP" role="3cqZAk">
+                      <property role="3clFbU" value="false" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="5XiMEZh6ytq" role="3clFbw">
+                  <node concept="2OqwBi" id="5XiMEZh6ytr" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5XiMEZh6yts" role="2Oq$k0">
+                      <node concept="37vLTw" id="5XiMEZh6ytt" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5XiMEZgXp5F" resolve="refinementRef" />
+                      </node>
+                      <node concept="3TrEf2" id="5XiMEZh6ytu" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jmga:7Q_dLVll0a" resolve="Cores" />
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="5XiMEZh6ytv" role="2OqNvi">
+                      <ref role="3TtcxE" to="jmga:2XWNstohPQq" resolve="cores" />
+                    </node>
+                  </node>
+                  <node concept="3JPx81" id="5XiMEZh6ytw" role="2OqNvi">
+                    <node concept="EsrRn" id="5XiMEZh6ytx" role="25WWJ7" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="5XiMEZgXn85" role="3cqZAp" />
             </node>
             <node concept="2OqwBi" id="7Q_dLVoIaM" role="3clFbw">
               <node concept="2OqwBi" id="7Q_dLVoIaN" role="2Oq$k0">
@@ -2472,6 +2522,18 @@
   </node>
   <node concept="1M2fIO" id="1HXM3RQ8qQf">
     <ref role="1M2myG" to="jmga:1HXM3RQ2QQ1" resolve="Constants" />
+    <node concept="EnEH3" id="5XiMEZhg357" role="1MhHOB">
+      <ref role="EomxK" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+      <node concept="Eqf_E" id="5XiMEZhg4Bn" role="EtsB7">
+        <node concept="3clFbS" id="5XiMEZhg4Bo" role="2VODD2">
+          <node concept="3cpWs6" id="5XiMEZhg59E" role="3cqZAp">
+            <node concept="Xl_RD" id="5XiMEZhg59F" role="3cqZAk">
+              <property role="Xl_RC" value="E:\\techworks\\DSL\\DSLFILES" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="EnEH3" id="1HXM3RQ8qQg" role="1MhHOB">
       <ref role="EomxK" to="jmga:1HXM3RQ2YUj" resolve="CONST_PCI_DEVICE_IDENTIFIER_IVHSMEM" />
       <node concept="Eqf_E" id="1HXM3RQajt2" role="EtsB7">
@@ -2486,11 +2548,14 @@
     </node>
     <node concept="EnEH3" id="3rFqjaCozl9" role="1MhHOB">
       <ref role="EomxK" to="jmga:3rFqjaCozcl" resolve="CELL_CONFIG_FILE_PATH" />
-      <node concept="Eqf_E" id="3rFqjaCoF_A" role="EtsB7">
-        <node concept="3clFbS" id="3rFqjaCoF_B" role="2VODD2">
-          <node concept="3cpWs6" id="3rFqjaCoFVb" role="3cqZAp">
-            <node concept="Xl_RD" id="58uRC8mBVv5" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+      <node concept="Eqf_E" id="5XiMEZhg5zV" role="EtsB7">
+        <node concept="3clFbS" id="5XiMEZhg5zW" role="2VODD2">
+          <node concept="3cpWs6" id="5XiMEZhg5Gw" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg62p" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg5Pm" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg6nL" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2500,9 +2565,12 @@
       <ref role="EomxK" to="jmga:4312YsHIySs" resolve="DOCKERFILE_OUT" />
       <node concept="Eqf_E" id="4312YsHI_$U" role="EtsB7">
         <node concept="3clFbS" id="4312YsHI_$V" role="2VODD2">
-          <node concept="3cpWs6" id="4312YsHI_YD" role="3cqZAp">
-            <node concept="Xl_RD" id="4312YsHI_YE" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+          <node concept="3cpWs6" id="5XiMEZhg6yr" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg6ys" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg6yt" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg6yu" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2520,13 +2588,28 @@
         </node>
       </node>
     </node>
+    <node concept="EnEH3" id="5XiMEZh9SFJ" role="1MhHOB">
+      <ref role="EomxK" to="jmga:5XiMEZh9Rpc" resolve="INSTALL_CONFIG_META_FILE_NAME" />
+      <node concept="Eqf_E" id="5XiMEZh9UdI" role="EtsB7">
+        <node concept="3clFbS" id="5XiMEZh9UdJ" role="2VODD2">
+          <node concept="3cpWs6" id="5XiMEZh9Umj" role="3cqZAp">
+            <node concept="Xl_RD" id="5XiMEZh9Uv1" role="3cqZAk">
+              <property role="Xl_RC" value="install-meta.txt" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="EnEH3" id="3wBOcHl_ex2" role="1MhHOB">
       <ref role="EomxK" to="jmga:3wBOcHl_diJ" resolve="ROS_TOPIC_OUTPUT_FILE_PATH" />
       <node concept="Eqf_E" id="3wBOcHl_g2p" role="EtsB7">
         <node concept="3clFbS" id="3wBOcHl_g2q" role="2VODD2">
-          <node concept="3cpWs6" id="3wBOcHl_gaY" role="3cqZAp">
-            <node concept="Xl_RD" id="3wBOcHl_gjG" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+          <node concept="3cpWs6" id="5XiMEZhg7zl" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg7zm" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg7zn" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg7zo" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2548,9 +2631,12 @@
       <ref role="EomxK" to="jmga:4312YsHVosC" resolve="ROS_TOPIC_SUB_OUTPUT_FILE_PATH" />
       <node concept="Eqf_E" id="4312YsHVpOq" role="EtsB7">
         <node concept="3clFbS" id="4312YsHVpOr" role="2VODD2">
-          <node concept="3cpWs6" id="4312YsHVpOs" role="3cqZAp">
-            <node concept="Xl_RD" id="4312YsHVpOt" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+          <node concept="3cpWs6" id="5XiMEZhg7QC" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg7QD" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg7QE" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg7QF" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2596,9 +2682,12 @@
       <ref role="EomxK" to="jmga:3rFqjaCza$i" resolve="HYPERVISOR_CONFIG_FILE_PATH" />
       <node concept="Eqf_E" id="3rFqjaCzIOs" role="EtsB7">
         <node concept="3clFbS" id="3rFqjaCzIOt" role="2VODD2">
-          <node concept="3cpWs6" id="3rFqjaCzIOz" role="3cqZAp">
-            <node concept="Xl_RD" id="3rFqjaCzIOH" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+          <node concept="3cpWs6" id="5XiMEZhg89V" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg89W" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg89X" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg89Y" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2620,9 +2709,12 @@
       <ref role="EomxK" to="jmga:3rFqjaDDg$j" resolve="INSTALL_CONFIG_FILE_PATH" />
       <node concept="Eqf_E" id="3rFqjaDDl39" role="EtsB7">
         <node concept="3clFbS" id="3rFqjaDDl3a" role="2VODD2">
-          <node concept="3cpWs6" id="3rFqjaDDlbI" role="3cqZAp">
-            <node concept="Xl_RD" id="3rFqjaDDlkq" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+          <node concept="3cpWs6" id="5XiMEZhg8te" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg8tf" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg8tg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg8th" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2632,9 +2724,12 @@
       <ref role="EomxK" to="jmga:3rFqjaCNC3X" resolve="KERNEL_CONFIG_OUTPUT_FILE_PATH" />
       <node concept="Eqf_E" id="3rFqjaCNHsX" role="EtsB7">
         <node concept="3clFbS" id="3rFqjaCNHsY" role="2VODD2">
-          <node concept="3cpWs6" id="3rFqjaCNH_y" role="3cqZAp">
-            <node concept="Xl_RD" id="2XWNsto39kA" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+          <node concept="3cpWs6" id="5XiMEZhg8Kx" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg8Ky" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg8Kz" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg8K$" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2644,9 +2739,12 @@
       <ref role="EomxK" to="jmga:3rFqjaCNC2s" resolve="KERNEL_CONFIG_FILE_PATH" />
       <node concept="Eqf_E" id="3rFqjaCNHQW" role="EtsB7">
         <node concept="3clFbS" id="3rFqjaCNHQX" role="2VODD2">
-          <node concept="3cpWs6" id="3rFqjaCNHR3" role="3cqZAp">
-            <node concept="Xl_RD" id="3rFqjaCNHZJ" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+          <node concept="3cpWs6" id="5XiMEZhg93O" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg93P" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg93Q" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg93R" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2692,9 +2790,12 @@
       <ref role="EomxK" to="jmga:3rFqjaCza$M" resolve="HYPERVISOR_CONFIG_OUTPUT_FILE_PATH" />
       <node concept="Eqf_E" id="3rFqjaCzY7D" role="EtsB7">
         <node concept="3clFbS" id="3rFqjaCzY7E" role="2VODD2">
-          <node concept="3cpWs6" id="3rFqjaCzYge" role="3cqZAp">
-            <node concept="Xl_RD" id="3rFqjaCzYxq" role="3cqZAk">
-              <property role="Xl_RC" value="/home/spinz/Documents/DSLFILES" />
+          <node concept="3cpWs6" id="5XiMEZhg9n7" role="3cqZAp">
+            <node concept="2OqwBi" id="5XiMEZhg9n8" role="3cqZAk">
+              <node concept="EsrRn" id="5XiMEZhg9n9" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5XiMEZhg9na" role="2OqNvi">
+                <ref role="3TsBF5" to="jmga:5XiMEZhg0ag" resolve="MAIN_PATH" />
+              </node>
             </node>
           </node>
         </node>
@@ -2887,7 +2988,7 @@
         <node concept="3clFbS" id="3rFqjaCrLWT" role="2VODD2">
           <node concept="3clFbF" id="3rFqjaCrLWZ" role="3cqZAp">
             <node concept="Xl_RD" id="7Q_dLUyFdZ" role="3clFbG">
-              <property role="Xl_RC" value="memReg" />
+              <property role="Xl_RC" value="memreg" />
             </node>
           </node>
         </node>

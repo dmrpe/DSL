@@ -3,9 +3,9 @@
  *
  * Configuration for gic-demo or uart-demo inmate on Nvidia Jetson TX2:
  * 1 CPU, 64 MB RAM, serial port 0
- *
- * This work is licensed under the terms of the GNU GPL, version 2.  See
- * the COPYING file in the top-level directory.
+		.phys_start = 0x5000000000,
+		.virt_start =0x50000000,
+		.size = 0x3000,
  */
 
 #include <jailhouse/types.h>
@@ -35,21 +35,21 @@ struct {
 	},
 
 	.cpus = {
-		0xC,
+		0x9,
 	},
 
 	.mem_regions = {
 		/* UART */ {
-			.phys_start = 0x3100000,
-			.virt_start = 0x3100000,
-			.size = 0x1000,
+		.phys_start = 0x100000000,
+		.virt_start =0x100000000,
+		.size = 0x2000,
 			.flags = JAILHOUSE_MEM_READ | JAILHOUSE_MEM_WRITE |
 				JAILHOUSE_MEM_IO,
 		},
 		/* RAM */ {
-			.phys_start = 0x270000000,
-			.virt_start = 0,
-			.size = 0x10000,
+		.phys_start = 0x5000000000,
+		.virt_start =0x50000000,
+		.size = 0x3000,
 			.flags = JAILHOUSE_MEM_READ | JAILHOUSE_MEM_WRITE |
 				JAILHOUSE_MEM_EXECUTE | JAILHOUSE_MEM_LOADABLE,
 		},
@@ -63,14 +63,14 @@ struct {
 		/* IVSHMEM  1*/ {
 			.phys_start = 0x275000000,
 			.virt_start = 0x275000000,
-			.size =  0xa00000,
-			.flags = JAILHOUSE_MEM_READ | JAILHOUSE_MEM_ROOTSHARED,
+			.size = 0x1000,
+			.flags = JAILHOUSE_MEM_READ | JAILHOUSE_MEM_WRITE,
 			},
 		/* IVSHMEM  2*/ {
 			.phys_start = 0x275200000,
 			.virt_start = 0x275200000,
-			.size =  0x2800,
-			.flags = JAILHOUSE_MEM_READ | JAILHOUSE_MEM_WRITE | JAILHOUSE_MEM_ROOTSHARED,
+			.size = 0x1000,
+			.flags = JAILHOUSE_MEM_READ | JAILHOUSE_MEM_WRITE ,
 			},
 	},
 
@@ -78,9 +78,9 @@ struct {
 		/* GIC */
 		{
 		.address = 0x30000000,
-		.pin_base = 288,
+		.pin_base = 282,
 		.pin_bitmap = {
-			0 << (332 - 320)
+			0
 				<< (332 - 320) /* irq 332 and 333 */
 			},
 		},

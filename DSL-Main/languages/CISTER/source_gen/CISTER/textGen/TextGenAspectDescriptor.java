@@ -24,6 +24,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     switch (myIndex.index(concept)) {
       case LanguageConceptSwitch.Application:
         return new Application_TextGen();
+      case LanguageConceptSwitch.Channel:
+        return new Channel_TextGen();
       case LanguageConceptSwitch.Deployment:
         return new Deployment_TextGen();
       case LanguageConceptSwitch.Hypervisor:

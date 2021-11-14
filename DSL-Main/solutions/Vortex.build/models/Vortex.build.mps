@@ -4,6 +4,8 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
+    <use id="7e450f4e-1ac3-41ef-a851-4598161bdb94" name="de.slisson.mps.tables" version="0" />
+    <use id="7f38d807-38ca-44f1-941e-7c2f776e2e59" name="CISTER" version="0" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -325,25 +327,13 @@
     </node>
     <node concept="398rNT" id="5_D9$LuFeAW" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="55IIr" id="5_D9$LuFeLc" role="398pKh">
-        <node concept="2Ry0Ak" id="5_D9$LuFeLd" role="iGT6I">
+      <node concept="55IIr" id="1Dy2epdq1Vw" role="398pKh">
+        <node concept="2Ry0Ak" id="1Dy2epdq1W9" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="5_D9$LuFeLe" role="2Ry0An">
+          <node concept="2Ry0Ak" id="1Dy2epdq1X3" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="5_D9$LuFeLf" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="5_D9$LuFeLg" role="2Ry0An">
-                <property role="2Ry0Am" value="IL0086D" />
-                <node concept="2Ry0Ak" id="5_D9$LuFeLh" role="2Ry0An">
-                  <property role="2Ry0Am" value="Desktop" />
-                  <node concept="2Ry0Ak" id="5_D9$LuFeLi" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS-2018.2" />
-                    <node concept="2Ry0Ak" id="5_D9$LuFeLj" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2018.2" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="2Ry0Ak" id="1Dy2epdq1XB" role="2Ry0An">
+              <property role="2Ry0Am" value="MPS 2018.2" />
             </node>
           </node>
         </node>
@@ -536,6 +526,9 @@
         <node concept="3_I8Xc" id="5_D9$LuFeCj" role="39821P">
           <ref role="3_I8Xa" to="ffeo:I6XuqH2zYV" resolve="git4idea" />
         </node>
+        <node concept="3_I8Xc" id="1Dy2epdsAHm" role="39821P">
+          <ref role="3_I8Xa" node="5_D9$LuFeCg" resolve="plugins" />
+        </node>
         <node concept="3_I8Xc" id="5_D9$LuFeCk" role="39821P">
           <ref role="3_I8Xa" to="ffeo:ymnOULBdbM" resolve="mps-core" />
         </node>
@@ -700,6 +693,12 @@
           <property role="TrG5h" value="CISTER#01" />
           <property role="3LESm3" value="91aa13be-9812-4622-af1d-b02648ed8b47" />
           <property role="2GAjPV" value="false" />
+        </node>
+        <node concept="1SiIV0" id="1Dy2epdq1KU" role="3bR37C">
+          <node concept="3bR9La" id="1Dy2epdq1KV" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L1S" resolve="jetbrains.mps.baseLanguage.javadoc" />
+          </node>
         </node>
       </node>
     </node>
@@ -1020,25 +1019,13 @@
     </node>
     <node concept="398rNT" id="5_D9$LuFeCP" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="55IIr" id="5_D9$LuFeK1" role="398pKh">
-        <node concept="2Ry0Ak" id="5_D9$LuFeK4" role="iGT6I">
+      <node concept="55IIr" id="1Dy2epdq222" role="398pKh">
+        <node concept="2Ry0Ak" id="1Dy2epdq225" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="5_D9$LuFeK7" role="2Ry0An">
+          <node concept="2Ry0Ak" id="1Dy2epdq22a" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="5_D9$LuFeKa" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="5_D9$LuFeKf" role="2Ry0An">
-                <property role="2Ry0Am" value="IL0086D" />
-                <node concept="2Ry0Ak" id="5_D9$LuFeKk" role="2Ry0An">
-                  <property role="2Ry0Am" value="Desktop" />
-                  <node concept="2Ry0Ak" id="5_D9$LuFeKr" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS-2018.2" />
-                    <node concept="2Ry0Ak" id="5_D9$LuFeKw" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2018.2" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="2Ry0Ak" id="1Dy2epdq22f" role="2Ry0An">
+              <property role="2Ry0Am" value="MPS 2018.2" />
             </node>
           </node>
         </node>

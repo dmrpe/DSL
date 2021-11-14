@@ -18,6 +18,12 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
   </dependency>
+  <dependency className="CISTER.textGen.Channel_TextGen" file="Channel_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
   <dependency className="CISTER.textGen.Deployment_TextGen" file="Deployment_TextGen.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
@@ -118,6 +124,7 @@
   <dependency className="CISTER.textGen.TextGenAspectDescriptor" file="TextGenAspectDescriptor.java">
     <classNode dependClassName="CISTER.structure.LanguageConceptSwitch" />
     <classNode dependClassName="CISTER.textGen.Application_TextGen" />
+    <classNode dependClassName="CISTER.textGen.Channel_TextGen" />
     <classNode dependClassName="CISTER.textGen.Deployment_TextGen" />
     <classNode dependClassName="CISTER.textGen.Hypervisor_TextGen" />
     <classNode dependClassName="CISTER.textGen.IRQChipDefinition_TextGen" />
@@ -148,11 +155,9 @@
   <dependency className="CISTER.textGen.View_TextGen" file="View_TextGen.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
     <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
   </dependency>
 </dependenciesRoot>

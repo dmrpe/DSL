@@ -73,7 +73,7 @@ struct {
 	},
 
 	.cpus = {
-		0x3E,
+		0x39,
 	},
 
 
@@ -534,27 +534,27 @@ struct {
 	.irqchips = {
 		/* GIC1 */ 
 		{
-			.address = 0x03881000,
-			.pin_base = 32,
-			.pin_bitmap = {
-				0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff
-			},
+		.address = 0x30000000,
+		.pin_base = 288,
+		.pin_bitmap = {
+			0xfffffff,
+			0xffffffa
 		},
 		/* GIC2 */ 
 		{
-			.address = 0x03881000,
-			.pin_base = 160,
-			.pin_bitmap = {
-				0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff
-			},
+		.address = 0x30000000,
+		.pin_base = 288,
+		.pin_bitmap = {
+			0xfffffff,
+			0xffffffa
 		},
 		/* GIC3 */ 
 		{
-			.address = 0x03881000,
-			.pin_base = 288,
-			.pin_bitmap = {
-				0xffffffff, 0xffffffff, 0xffffffff
-			},
+		.address = 0x30000000,
+		.pin_base = 288,
+		.pin_bitmap = {
+			0xfffffff,
+			0xffffffa
 		},
 	},
 

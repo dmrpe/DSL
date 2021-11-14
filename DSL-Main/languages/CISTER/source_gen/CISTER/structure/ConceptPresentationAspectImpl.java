@@ -130,6 +130,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Hypervisor:
         if (props_Hypervisor == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Hypervisor Concept");
           cpb.rawPresentation("Views.Hypervisor");
           props_Hypervisor = cpb.create();
         }

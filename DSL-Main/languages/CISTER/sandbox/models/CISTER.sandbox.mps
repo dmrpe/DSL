@@ -42,12 +42,6 @@
         <child id="3421836072957992366" name="Cores" index="1ReT1D" />
         <child id="141464113035351974" name="irqChips" index="1W1CdU" />
       </concept>
-      <concept id="5431507069741180250" name="CISTER.structure.Channel" flags="ng" index="15$FeX">
-        <property id="141464113047081373" name="size" index="1Zlol1" />
-        <property id="141464113047081396" name="protocol" index="1ZlolC" />
-        <child id="141464113047081371" name="connect" index="1Zlol7" />
-        <child id="141464113047081387" name="permission" index="1ZlolR" />
-      </concept>
       <concept id="5431507069741179038" name="CISTER.structure.Install" flags="ng" index="15$FpT">
         <property id="3957372363888331312" name="kernelVersion" index="2vq6c2" />
         <property id="3957372363888331306" name="OS" index="2vq6co" />
@@ -68,7 +62,6 @@
         <child id="5431507069741180229" name="Refinement" index="15$Fey" />
         <child id="5431507069741180238" name="Install" index="15$FeD" />
         <child id="5431507069741180244" name="Partition" index="15$FeN" />
-        <child id="5431507069741180251" name="Channel" index="15$FeW" />
       </concept>
       <concept id="5731665899630986811" name="CISTER.structure.Topic" flags="ng" index="3hcR7Z">
         <property id="5731665899630986825" name="path" index="3hcR6d" />
@@ -105,10 +98,6 @@
         <property id="141464113047081376" name="target" index="1ZlolW" />
         <child id="141464113047081385" name="permission" index="1ZlolP" />
       </concept>
-      <concept id="141464113047081314" name="CISTER.structure.Connect" flags="ng" index="1ZlomY">
-        <property id="141464113047081317" name="to" index="1ZlomT" />
-        <property id="141464113047081315" name="from" index="1ZlomZ" />
-      </concept>
       <concept id="141464113041838591" name="CISTER.structure.PinBitmap" flags="ng" index="1ZDokz">
         <child id="141464113042563504" name="inputs" index="1ZEblG" />
       </concept>
@@ -138,7 +127,7 @@
             <node concept="1Zlol3" id="4YaXWiuRsi6" role="3hhrrX">
               <property role="1ZlolW" value="T1" />
               <node concept="1ZEbl5" id="4YaXWiuRsi7" role="1ZlolP">
-                <property role="1ZEbl6" value="read" />
+                <property role="1ZEbl6" value="write" />
               </node>
             </node>
           </node>
@@ -174,122 +163,6 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="4Hw_IseWYBx" role="1B3o_S" />
-    <node concept="15$FpX" id="4Hw_IseWYBy" role="15$Xh5">
-      <property role="TrG5h" value="DemoHV" />
-      <node concept="15$FeO" id="WSCj4fH_Zs" role="15$FeN">
-        <property role="TrG5h" value="LinuxROS" />
-        <property role="1ReT3Z" value="linux" />
-        <property role="1Rdt0$" value="wlan, hdmi" />
-        <node concept="3I8xcq" id="1HXM3RPrlLl" role="3I8xce">
-          <property role="3I8xcl" value="IVSHMEM" />
-          <property role="3I8xcd" value="3" />
-          <node concept="1ZEbl5" id="1HXM3RPrlLm" role="3I8xcj" />
-        </node>
-        <node concept="1W6tK2" id="7Q_dLYtPDq" role="1W1CdU">
-          <property role="1W6tKX" value="288" />
-          <property role="1W11oW" value="GIC" />
-          <property role="1W6tK3" value="0x30000000" />
-          <node concept="1ZDokz" id="7Q_dLYtPDr" role="1ZDor1">
-            <node concept="1ZEbl5" id="7Q_dLYtPDw" role="1ZEblG">
-              <property role="1ZEbl6" value="0 &lt;&lt; (332 - 320)" />
-            </node>
-          </node>
-        </node>
-        <node concept="1ReT26" id="WSCj4fH_Zt" role="1ReT1D">
-          <node concept="1ReT2Z" id="7Q_dLXUJ5y" role="1ReT1t">
-            <property role="1ReT2Y" value="0" />
-          </node>
-          <node concept="1ReT2Z" id="7Q_dLXUJ5$" role="1ReT1t">
-            <property role="1ReT2Y" value="1" />
-          </node>
-        </node>
-        <node concept="0DUso" id="2n4ZFwVRsuE" role="0DUuL">
-          <property role="0DUs0" value="UART" />
-          <property role="0DUst" value="0x100000000" />
-          <property role="0DUsv" value="0x100000000" />
-          <property role="0_6cs" value="0x2000" />
-        </node>
-        <node concept="0DUso" id="7Q_dLVVVov" role="0DUuL">
-          <property role="0DUs0" value="RAM" />
-          <property role="0DUst" value="0x5000000000" />
-          <property role="0DUsv" value="0x50000000" />
-          <property role="0_6cs" value="0x1000" />
-        </node>
-      </node>
-      <node concept="15$FeO" id="7Q_dLV4Cxq" role="15$FeN">
-        <property role="TrG5h" value="LinuxROS2" />
-        <property role="1ReT3Z" value="linux" />
-        <property role="1Rdt0$" value="wlan" />
-        <node concept="1ReT26" id="7Q_dLV4Cxr" role="1ReT1D">
-          <node concept="1ReT2Z" id="7Q_dLV4Cxs" role="1ReT1t">
-            <property role="1ReT2Y" value="2" />
-          </node>
-          <node concept="1ReT2Z" id="7Q_dLXUJ5r" role="1ReT1t">
-            <property role="1ReT2Y" value="3" />
-          </node>
-        </node>
-        <node concept="0DUso" id="7Q_dLV4Cxt" role="0DUuL">
-          <property role="0DUs0" value="RAM" />
-          <property role="0DUst" value="0x5000000000" />
-          <property role="0DUsv" value="0x50000000" />
-          <property role="0_6cs" value="0x3000" />
-        </node>
-      </node>
-      <node concept="15$FpW" id="2XWNstnZE_Z" role="15$Fey">
-        <property role="1Swm3O" value="Jailhouse" />
-      </node>
-      <node concept="15$Fei" id="2XWNstoj9rz" role="15$Feh">
-        <node concept="1RdP4b" id="2XWNstojpop" role="1Rv35u" />
-      </node>
-      <node concept="15$FeX" id="7Q_dLYFmD3" role="15$FeW">
-        <property role="TrG5h" value="inter_partition1" />
-        <property role="1Zlol1" value="10MB" />
-        <property role="1ZlolC" value="/* IVSHMEM  1*/" />
-        <node concept="1ZlomY" id="7Q_dLYFmD4" role="1Zlol7">
-          <property role="1ZlomZ" value="LinuxROS" />
-          <property role="1ZlomT" value="LinuxROS2" />
-        </node>
-        <node concept="1Zlol3" id="7Q_dLYFmD5" role="1ZlolR">
-          <property role="1ZlolW" value="LinuxROS" />
-          <node concept="1ZEbl5" id="7Q_dLYFmD6" role="1ZlolP">
-            <property role="1ZEbl6" value="read" />
-          </node>
-          <node concept="1ZEbl5" id="7Q_dLYGOnD" role="1ZlolP">
-            <property role="1ZEbl6" value="write" />
-          </node>
-        </node>
-        <node concept="1Zlol3" id="7Q_dLZjLHl" role="1ZlolR">
-          <property role="1ZlolW" value="LinuxROS2" />
-          <node concept="1ZEbl5" id="7Q_dLZjLHm" role="1ZlolP">
-            <property role="1ZEbl6" value="read" />
-          </node>
-        </node>
-      </node>
-      <node concept="15$FeX" id="7Q_dLZrLke" role="15$FeW">
-        <property role="TrG5h" value="inter_partition2" />
-        <property role="1Zlol1" value="10KB" />
-        <property role="1ZlolC" value="/* IVSHMEM  2*/" />
-        <node concept="1ZlomY" id="7Q_dLZrLkf" role="1Zlol7">
-          <property role="1ZlomZ" value="LinuxROS" />
-          <property role="1ZlomT" value="LinuxROS2" />
-        </node>
-        <node concept="1Zlol3" id="7Q_dLZrLkg" role="1ZlolR">
-          <property role="1ZlolW" value="LinuxROS" />
-          <node concept="1ZEbl5" id="7Q_dLZrLkh" role="1ZlolP">
-            <property role="1ZEbl6" value="read" />
-          </node>
-        </node>
-        <node concept="1Zlol3" id="7Q_dLZrLkt" role="1ZlolR">
-          <property role="1ZlolW" value="LinuxROS2" />
-          <node concept="1ZEbl5" id="7Q_dLZrLku" role="1ZlolP">
-            <property role="1ZEbl6" value="read" />
-          </node>
-          <node concept="1ZEbl5" id="5cfLmetRu3W" role="1ZlolP">
-            <property role="1ZEbl6" value="write" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="15$FpX" id="2XWNstok3y7" role="15$Xh5">
       <property role="TrG5h" value="DemoPV" />
       <node concept="15$FpW" id="2XWNstok3yw" role="15$Fey">
@@ -350,35 +223,143 @@
         <node concept="1RuGOT" id="2XWNstoEAET" role="1Rv35u" />
       </node>
     </node>
-    <node concept="15$FpX" id="2n4ZFwVRssX" role="15$Xh5">
-      <property role="TrG5h" value="DemoPV2" />
-      <node concept="15$Fei" id="2n4ZFwVRsu8" role="15$Feh">
-        <node concept="1RuGOT" id="2n4ZFwVRsuc" role="1Rv35u" />
-      </node>
-      <node concept="15$FpW" id="2n4ZFwVRsuf" role="15$Fey">
-        <property role="1Swm3O" value="JetsonTX2" />
-        <node concept="15$Fec" id="2n4ZFwVRsuB" role="1RshwD">
-          <property role="1SwKDC" value="HDMI" />
+    <node concept="15$FpX" id="4Hw_IseWYBy" role="15$Xh5">
+      <property role="TrG5h" value="DemoHV" />
+      <node concept="15$FeO" id="WSCj4fH_Zs" role="15$FeN">
+        <property role="TrG5h" value="LinuxROS" />
+        <property role="1ReT3Z" value="linux" />
+        <property role="1Rdt0$" value="wlan, hdmi" />
+        <node concept="3I8xcq" id="1HXM3RPrlLl" role="3I8xce">
+          <property role="3I8xcl" value="IVSHMEM" />
+          <property role="3I8xcd" value="3" />
+          <node concept="1ZEbl5" id="1HXM3RPrlLm" role="3I8xcj" />
         </node>
-        <node concept="1ReT26" id="2n4ZFwVRsuh" role="1UCWjm">
-          <node concept="1ReT2Z" id="2n4ZFwVRsui" role="1ReT1t">
+        <node concept="1W6tK2" id="7Q_dLYtPDq" role="1W1CdU">
+          <property role="1W6tKX" value="282" />
+          <property role="1W11oW" value="GIC" />
+          <property role="1W6tK3" value="0x30000000" />
+          <node concept="1ZDokz" id="7Q_dLYtPDr" role="1ZDor1">
+            <node concept="1ZEbl5" id="7Q_dLYtPDw" role="1ZEblG">
+              <property role="1ZEbl6" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="1ReT26" id="WSCj4fH_Zt" role="1ReT1D">
+          <node concept="1ReT2Z" id="7Q_dLXUJ5y" role="1ReT1t">
             <property role="1ReT2Y" value="0" />
           </node>
-          <node concept="1ReT2Z" id="2n4ZFwVRsul" role="1ReT1t">
+          <node concept="1ReT2Z" id="7Q_dLXUJ5$" role="1ReT1t">
             <property role="1ReT2Y" value="1" />
           </node>
-          <node concept="1ReT2Z" id="2n4ZFwVRsuo" role="1ReT1t">
-            <property role="1ReT2Y" value="2" />
-          </node>
-          <node concept="1ReT2Z" id="2n4ZFwVRsus" role="1ReT1t">
-            <property role="1ReT2Y" value="3" />
-          </node>
-          <node concept="1ReT2Z" id="2n4ZFwVRsux" role="1ReT1t">
-            <property role="1ReT2Y" value="4" />
-          </node>
+        </node>
+        <node concept="0DUso" id="2n4ZFwVRsuE" role="0DUuL">
+          <property role="0DUs0" value="UART" />
+          <property role="0DUst" value="0x100000000" />
+          <property role="0DUsv" value="0x100000000" />
+          <property role="0_6cs" value="0x2000" />
+        </node>
+        <node concept="0DUso" id="7Q_dLVVVov" role="0DUuL">
+          <property role="0DUs0" value="RAM" />
+          <property role="0DUst" value="0x5000000000" />
+          <property role="0DUsv" value="0x50000000" />
+          <property role="0_6cs" value="0x1000" />
         </node>
       </node>
+      <node concept="15$FeO" id="7Q_dLV4Cxq" role="15$FeN">
+        <property role="TrG5h" value="LinuxROS2" />
+        <property role="1ReT3Z" value="linux" />
+        <property role="1Rdt0$" value="wlan" />
+        <node concept="1ReT26" id="7Q_dLV4Cxr" role="1ReT1D">
+          <node concept="1ReT2Z" id="7Q_dLV4Cxs" role="1ReT1t">
+            <property role="1ReT2Y" value="2" />
+          </node>
+          <node concept="1ReT2Z" id="7Q_dLXUJ5r" role="1ReT1t">
+            <property role="1ReT2Y" value="5" />
+          </node>
+        </node>
+        <node concept="0DUso" id="7Q_dLV4Cxt" role="0DUuL">
+          <property role="0DUs0" value="RAM" />
+          <property role="0DUst" value="0x5000000000" />
+          <property role="0DUsv" value="0x50000000" />
+          <property role="0_6cs" value="0x3000" />
+        </node>
+      </node>
+      <node concept="15$FpW" id="2XWNstnZE_Z" role="15$Fey">
+        <property role="1Swm3O" value="Jailhouse" />
+      </node>
+      <node concept="15$Fei" id="2XWNstoj9rz" role="15$Feh">
+        <node concept="1RdP4b" id="2XWNstojpop" role="1Rv35u" />
+      </node>
     </node>
+  </node>
+  <node concept="15$_U0" id="1Dy2epdwD0H">
+    <property role="TrG5h" value="sanbox2" />
+    <node concept="15$FpX" id="1Dy2epdwD5q" role="15$Xh5">
+      <property role="TrG5h" value="DemoHV" />
+      <node concept="15$FeO" id="1Dy2epdwD5r" role="15$FeN">
+        <property role="TrG5h" value="LinuxROS" />
+        <property role="1ReT3Z" value="linux" />
+        <property role="1Rdt0$" value="wlan, hdmi" />
+        <node concept="3I8xcq" id="1Dy2epdwD5s" role="3I8xce">
+          <property role="3I8xcl" value="IVSHMEM" />
+          <property role="3I8xcd" value="3" />
+          <node concept="1ZEbl5" id="1Dy2epdwD5t" role="3I8xcj" />
+        </node>
+        <node concept="1W6tK2" id="1Dy2epdwD5u" role="1W1CdU">
+          <property role="1W6tKX" value="282" />
+          <property role="1W11oW" value="GIC" />
+          <property role="1W6tK3" value="0x30000000" />
+          <node concept="1ZDokz" id="1Dy2epdwD5v" role="1ZDor1">
+            <node concept="1ZEbl5" id="1Dy2epdwD5w" role="1ZEblG">
+              <property role="1ZEbl6" value="0," />
+            </node>
+          </node>
+        </node>
+        <node concept="1ReT26" id="1Dy2epdwD5x" role="1ReT1D">
+          <node concept="1ReT2Z" id="1Dy2epdwD5y" role="1ReT1t">
+            <property role="1ReT2Y" value="0" />
+          </node>
+          <node concept="1ReT2Z" id="1Dy2epdwD5z" role="1ReT1t">
+            <property role="1ReT2Y" value="1" />
+          </node>
+        </node>
+        <node concept="0DUso" id="1Dy2epdwD5$" role="0DUuL">
+          <property role="0DUs0" value="/* UART */" />
+          <property role="0DUst" value="0x100000000" />
+          <property role="0DUsv" value="0x100000000" />
+          <property role="0_6cs" value="0x2000" />
+        </node>
+        <node concept="0DUso" id="1Dy2epdwD5_" role="0DUuL">
+          <property role="0DUs0" value="RAM" />
+          <property role="0DUst" value="0x5000000000" />
+          <property role="0DUsv" value="0x50000000" />
+          <property role="0_6cs" value="0x1000" />
+        </node>
+      </node>
+      <node concept="15$FeO" id="1Dy2epdwD5A" role="15$FeN">
+        <property role="TrG5h" value="LinuxROS2" />
+        <property role="1ReT3Z" value="linux" />
+        <property role="1Rdt0$" value="wlan" />
+        <node concept="1ReT26" id="1Dy2epdwD5B" role="1ReT1D">
+          <node concept="1ReT2Z" id="1Dy2epdwD5C" role="1ReT1t">
+            <property role="1ReT2Y" value="2" />
+          </node>
+          <node concept="1ReT2Z" id="1Dy2epdwD5D" role="1ReT1t">
+            <property role="1ReT2Y" value="5" />
+          </node>
+        </node>
+        <node concept="0DUso" id="1Dy2epdwD5E" role="0DUuL">
+          <property role="0DUs0" value="RAM" />
+          <property role="0DUst" value="0x5000000000" />
+          <property role="0DUsv" value="0x50000000" />
+          <property role="0_6cs" value="0x3000" />
+        </node>
+      </node>
+      <node concept="15$Fei" id="1Dy2epdwD5G" role="15$Feh">
+        <node concept="1RdP4b" id="1Dy2epdEytE" role="1Rv35u" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1Dy2epdwD0I" role="1B3o_S" />
   </node>
 </model>
 
